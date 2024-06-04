@@ -91,8 +91,9 @@ players = ["Sachin", "Sehwag", "Gambhir", "Dravid", "Raina"]
 
 # initializing their scores
 scores = [100, 15, 17, 28, 43]
-
+print(zip(players, scores))
 # printing players and scores.
 for pl, sc in zip(players, scores):
-	print("Player : %s	 Score : %d" % (pl, sc))
+	print("Player : %s	 Score : %d" % (pl, sc)) 
+	# here using string formatting %s is replaced with the player's name, and the %d is replaced with their score
 
